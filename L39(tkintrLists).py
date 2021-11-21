@@ -25,11 +25,9 @@ taskEntry = Entry(leftFrame)
 rightFrame = Label(topFrame, padx=10, pady=10)
 label2 = Label(rightFrame, text='Until when')
 whenEntry = Entry(rightFrame, width=10)
-# Da button
-button1 = Button(inputFrame,bg='black')
-
 # Bottom
 bottomFrame = Frame(inputFrame, width=200, height=150)
+button1 = Button(bottomFrame,bg='black')
 
 inputFrame.pack()
 # Top
@@ -37,10 +35,10 @@ topFrame.pack()
 leftFrame.pack(side=LEFT)
 label1.pack()
 taskEntry.pack()
-button1.pack()
 rightFrame.pack(side=LEFT)
 label2.pack()
 whenEntry.pack()
 # Bottom
 bottomFrame.pack()
+button1.pack()
 window.mainloop()
