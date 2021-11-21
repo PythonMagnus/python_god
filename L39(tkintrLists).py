@@ -27,7 +27,7 @@ label2 = Label(rightFrame, text='Until when')
 whenEntry = Entry(rightFrame, width=10)
 # Bottom
 bottomFrame = Frame(inputFrame, width=200, height=150)
-button1 = Button(bottomFrame,bg='black')
+button1 = Button(bottomFrame, text='button', bg='black')
 
 inputFrame.pack()
 # Top
